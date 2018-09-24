@@ -1,0 +1,16 @@
+def comparison(string_one, string_two):
+if not isinistance(string_one, str) or not isinistance(string_two, str)
+return 0
+elif string_two ==  string_two:
+return 1
+elif string_one =! string_two and len(string_one)>len(string_two):
+    return 2
+elif string_one =! string_two and string_two = "learn":
+    return 3
+
+else:
+    return "Строки не соответствуют условиям"
+
+    print(comparison("br", "br"))
+    print(comparison("br", "brbr"))
+    print(comparison("br", "learn"))

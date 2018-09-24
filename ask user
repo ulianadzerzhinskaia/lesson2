@@ -1,0 +1,11 @@
+answers = {"Привет": "Привет", "Как дела?": "Отлично, а у тебя?", "Чем занимаешься?": "Делаю дз"}
+
+def ask_user():
+    try:
+        while True:
+            answer = input("Как дела?")
+            if answer != "Хорошо":
+                break
+                if answer in answers():
+                    print(answers[answer])
+                    

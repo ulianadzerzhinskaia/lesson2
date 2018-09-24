@@ -1,0 +1,18 @@
+
+def occupation(age):
+if age <=0 :
+    return "Вы не родились"
+    elif age <=6:
+        return "Вы ходите в детский сад"
+        elif age <=18:
+            return "Вы ходите в школу"
+        elif age <=22:
+            return "Вы учитесь в университете"
+        elif age <=55:
+            return "Вы работаете"
+        else: 
+            return "Вы на пенсии"
+
+            user_age = int(input("Введите свой возраст: "))
+            result = occupation(user_age)
+            print occupation
