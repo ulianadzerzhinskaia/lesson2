@@ -1,0 +1,7 @@
+def get_summ(number_one, number_two):
+    try:
+        number_one = int(number_one)
+        number_two = int(number_two)
+    print(number_one + number_two)
+    except ValueError: 
+        print("Ошибка")
